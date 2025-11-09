@@ -8,7 +8,7 @@ const Home = () => {
                     <p className="text-sm md:text-base text-center">👋 Hi, I’m Prithivi Pemi Magar</p>
                 </div>
                 {/* Heading with inline videos */}
-                <h1 className="text-2xl md:text-[50px] lg:text-8xl font-semibold text-center leading-tight">
+                <h1 className="h1">
                     Backend{" "}
                     <span className="inline-flex align-middle">
                         <video
