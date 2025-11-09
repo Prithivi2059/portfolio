@@ -3,15 +3,21 @@ import { useEffect, useRef } from 'react'
 
 const SmoothScroll = ({ children }) => {
     const lenisRef = useRef()
-
     useEffect(() => {
+        let rafId = null
+        let mounted = true
+
         function update(time) {
-            lenisRef.current?.lenis?.raf(time)
+            if (!mounted) return
+            lenisRef.current?.lenis?.raf?.(time)
+            rafId = requestAnimationFrame(update)
         }
+        rafId = requestAnimationFrame(update)
 
-        const rafId = requestAnimationFrame(update)
-
-        return () => cancelAnimationFrame(rafId)
+        return () => {
+            mounted = false
+            if (rafId) cancelAnimationFrame(rafId)
+        }
     }, [])
     return (
         <ReactLenis root options={{ autoRaf: false }} ref={lenisRef} >

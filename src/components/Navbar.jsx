@@ -16,8 +16,8 @@ const Navbar = () => {
             </nav>
 
             <div className="btn hidden md:block">
-                <Button className="rounded-full border cursor-pointer border-gray-300 bg-transparent text-black hover:bg-gray-300/30">
-                    Contact <span><img className="text-white" src="./svgs/upside.svg" alt="Upside SVG" /></span>
+                <Button asChild className="rounded-full border cursor-pointer border-gray-300 bg-transparent text-black hover:bg-gray-300/30">
+                    <a href="#contact"> Contact <span><img className="text-white" src="./svgs/upside.svg" alt="Upside SVG" /></span></a>
                 </Button>
             </div>
             <div className="hamburger block md:hidden">

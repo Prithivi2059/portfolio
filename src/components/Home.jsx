@@ -41,7 +41,9 @@ const Home = () => {
                 </h1>
                 <p className="w-full md:w-[80%] text-[11px] md:text-[12px] lg:text-sm text-gray-custom text-center">As a backend developer, I build efficient systems that bring ideas to life — crafting RESTful APIs and optimizing databases for smooth, reliable performance.</p>
                 <div className="btn flex gap-4">
-                    <Button className="rounded-full cursor-pointer">Lets Connect 💬</Button>
+                    <Button asChild className="rounded-full cursor-pointer">
+                        <a href="#contact">Lets Connect 💬</a>
+                    </Button>
                     <Button className="rounded-full border cursor-pointer border-gray-300 bg-transparent text-black">Download CV <span className="w-4 h-4"><img className="w-full h-full object-cover" src="/svgs/download.svg" alt="" /></span></Button>
                 </div>
             </div>
