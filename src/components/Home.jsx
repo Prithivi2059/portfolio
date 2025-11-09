@@ -44,7 +44,7 @@ const Home = () => {
                     <Button asChild className="rounded-full cursor-pointer">
                         <a href="#contact">Lets Connect 💬</a>
                     </Button>
-                    <Button className="rounded-full border cursor-pointer border-gray-300 bg-transparent text-black">Download CV <span className="w-4 h-4"><img className="w-full h-full object-cover" src="/svgs/download.svg" alt="" /></span></Button>
+                    <Button className="rounded-full border cursor-pointer border-gray-300 bg-transparent text-black hover:bg-gray-300/40">Download CV <span className="w-4 h-4"><img className="w-full h-full object-cover" src="/svgs/download.svg" alt="" /></span></Button>
                 </div>
             </div>
         </section>
