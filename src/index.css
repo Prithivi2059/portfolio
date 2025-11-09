@@ -133,6 +133,6 @@
     background-color: var(--color-gray-custom);
   }
   .h1 {
-    @apply text-2xl md:text-[50px] lg:text-8xl font-semibold text-center leading-tight;
+    @apply text-xl md:text-[50px] lg:text-[70px] font-semibold text-center leading-tight;
   }
 }
