@@ -71,7 +71,7 @@ export const projectCard = [
     img: "/images/solidbase.png",
     description:
       "SolidBase is a professional static website designed for SolidBase Construction & Co — a company committed to creating purposeful spaces that inspire innovation, promote learning, and support healthy living. This project showcases a clean and modern design using only HTML and CSS.",
-    stack: ["Html", "Css", "Responsive"],
+    stack: ["Html", "Css"],
     link: "https://prithivipm2580.github.io/SolidBase/",
   },
   {
