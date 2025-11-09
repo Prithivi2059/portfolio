@@ -105,3 +105,46 @@ export const contactCards = [
     name: "PrithiviPM2580",
   },
 ];
+
+export const skillCard = [
+  {
+    id: 1,
+    name: "HTML",
+    icon: "/images/html.png",
+  },
+  {
+    id: 2,
+    name: "Javascript",
+    icon: "/images/javascript.png",
+  },
+  {
+    id: 3,
+    name: "Taildwind CSS",
+    icon: "/images/tailwind.png",
+  },
+  {
+    id: 4,
+    name: "Figma",
+    icon: "/images/figma.png",
+  },
+  {
+    id: 5,
+    name: "Node.js",
+    icon: "/images/nodejs.png",
+  },
+  {
+    id: 6,
+    name: "Express.js",
+    icon: "/images/express.png",
+  },
+  {
+    id: 7,
+    name: "MongoDB",
+    icon: "/images/mongodb.png",
+  },
+  {
+    id: 8,
+    name: "GitHub",
+    icon: "/images/github.png",
+  },
+];

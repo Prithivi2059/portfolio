@@ -1,8 +1,8 @@
 const ContactCard = ({ icon, title, name }) => {
     return (
         <div className="bg-[#E9E9E9]/80 px-4 py-4 flex items-center justify-between rounded-xl">
-            <div className="flex gap-2 items-center justify-center">
-                <div>
+            <div className="flex gap-4 items-center justify-center">
+                <div className="px-0.5 py-0.5 bg-white rounded-sm">
                     <img src={icon} alt={title} />
                 </div>
                 <div>
