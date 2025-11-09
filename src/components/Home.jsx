@@ -2,7 +2,7 @@ import { Button } from "./ui/button"
 
 const Home = () => {
     return (
-        <section className="w-full px-4 py-[6em] md:py-8 ">
+        <section className="w-full px-4 py-[6em] md:py-24 ">
             <div className="max-w-4xl mx-auto flex flex-col items-center gap-6 md:gap-6 lg:gap-8">
                 <div className="bg-white rounded-3xl md:rounded-4xl flex items-center justify-center px-3 py-2 md:px-6 md:py-2">
                     <p className="text-sm md:text-base text-center">👋 Hi, I’m Prithivi Pemi Magar</p>

@@ -4,14 +4,14 @@ const ButtonIcon = ({ icon, name, bg, pos = {}, rotate, relative }) => {
     return (
         <div
             className={cn(
-                "hidden w-max md:block z-0 px-1 py-1 md:px-1 md:py-1 lg:px-2 lg:py-2 bg-[#DEDEDE] rounded-full",
+                "hidden w-max md:block z-0 px-1 py-1 md:px-1 md:py-1 lg:px-1 lg:py-1 bg-[#DEDEDE] rounded-full",
                 md,
                 rotate && `rotate-[${rotate}deg]`,
                 relative ? "relative" : "absolute"
             )}
             style={{ transform: `rotate(${rotate}deg)` }}
         >
-            <div className="bg-white flex items-center justify-between rounded-full gap-2 px-1 py-1">
+            <div className="bg-white flex items-center justify-between rounded-full gap-4 px-1 py-0.5">
                 <div
                     className="w-4 h-4 md:w-6 md:h-6 lg:w-8 lg:h-8 rounded-full flex items-center justify-center"
                     style={{ backgroundColor: bg }}

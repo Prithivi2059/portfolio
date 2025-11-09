@@ -5,7 +5,7 @@ export const buttonIcons = [
     bg: "#ffc795",
     rotate: 10,
     pos: {
-      md: "md:top-[25%] md:left-[82%]",
+      md: "md:top-[25%] md:left-[80%]",
     },
   },
   {
@@ -14,7 +14,7 @@ export const buttonIcons = [
     bg: "#79CCFF",
     rotate: -10,
     pos: {
-      md: "md:top-[-20%] md:left-[79%]",
+      md: "md:top-[-30%] md:left-[80%]",
     },
   },
   {
@@ -23,7 +23,7 @@ export const buttonIcons = [
     bg: "#209651",
     rotate: 10,
     pos: {
-      md: "md:top-[-20%] md:left-[6%]",
+      md: "md:top-[-20%] md:left-[7%]",
     },
   },
   {
@@ -32,7 +32,7 @@ export const buttonIcons = [
     bg: "#944444",
     rotate: 5,
     pos: {
-      md: "md:top-[30%] md:left-[4%]",
+      md: "md:top-[32%] md:left-[7%]",
     },
   },
   {
@@ -50,7 +50,7 @@ export const buttonIcons = [
     bg: "#25E97D",
     rotate: -10,
     pos: {
-      md: "md:top-[72%] md:left-[4%]",
+      md: "md:top-[85%] md:left-[7%]",
     },
   },
 ];
