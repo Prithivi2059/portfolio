@@ -4,7 +4,7 @@ import ContactCard from "./ContactCard";
 
 const Contact = () => {
     return (
-        <section className="w-full py-8 sm:py-12">
+        <section id="contact" className="w-full py-8 sm:py-12">
             <div className="flex flex-col justify-center items-center gap-8 md:gap-10 lg:gap-1">
                 <h1 className="h1">Contact</h1>
                 <div className="w-full flex flex-col py-12 md:flex-row gap-8">
