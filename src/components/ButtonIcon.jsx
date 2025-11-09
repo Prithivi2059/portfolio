@@ -1,12 +1,13 @@
 import { cn } from "@/lib/utils";
-const ButtonIcon = ({ icon, name, bg, pos = {}, rotate }) => {
+const ButtonIcon = ({ icon, name, bg, pos = {}, rotate, relative }) => {
     const { md = "" } = pos;
     return (
         <div
             className={cn(
-                "absolute hidden md:block z-0 px-1 py-1 md:px-1 md:py-1 lg:px-2 lg:py-2 bg-[#DEDEDE] rounded-full",
+                " hidden md:block z-0 px-1 py-1 md:px-1 md:py-1 lg:px-2 lg:py-2 bg-[#DEDEDE] rounded-full",
                 md,
-                rotate && `rotate-[${rotate}deg]`
+                rotate && `rotate-[${rotate}deg]`,
+                relative ? "relative" : "absolute"
             )}
             style={{ transform: `rotate(${rotate}deg)` }}
         >

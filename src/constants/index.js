@@ -84,3 +84,24 @@ export const projectCard = [
     link: "https://github.com/PrithiviPM2580/prompt-vault",
   },
 ];
+
+export const contactCards = [
+  {
+    id: 1,
+    icon: "/svgs/email.svg",
+    title: "Email",
+    name: "prithivipemimagar@gmail.com",
+  },
+  {
+    id: 2,
+    icon: "/svgs/linkedin.svg",
+    title: "LinkedIn",
+    name: "Prithivi Pemi Magar",
+  },
+  {
+    id: 3,
+    icon: "/svgs/github.svg",
+    title: "GitHub",
+    name: "PrithiviPM2580",
+  },
+];
